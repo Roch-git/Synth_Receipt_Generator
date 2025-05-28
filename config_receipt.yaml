@@ -1,0 +1,342 @@
+# ===================================================================
+# Konfiguracja generatora syntetycznych paragonów
+# ===================================================================
+# 
+# Plik zawiera parametry sterujące procesem generowania paragonów:
+# - wygląd wizualny (rozmiar, orientacja, jakość)
+# - efekty wizualne (zniekształcenia, rozmycia, szumy)
+# - layout i formatowanie treści (marginesy, odstępy, wysokości sekcji)
+# - parametry generowania zawartości (liczba produktów, formaty dat, cen)
+#
+# Większość parametrów może być określona jako zakres [min, max],
+# z którego losowana jest wartość dla każdego paragonu.
+# ===================================================================
+
+# === PARAMETRY GŁÓWNE ===
+
+# Jakość kompresji JPG [min, max]
+quality: [70, 85]
+
+# Prawdopodobieństwo orientacji poziomej (0.0 = zawsze pionowa, 1.0 = zawsze pozioma)
+# Paragony są zwykle pionowe, więc zalecana wartość to 0.0
+landscape: 0.0
+
+# Zakres szerokości paragonu w pikselach [min, max]
+short_size: [500, 600]
+
+# Zakres proporcji długość/szerokość [min, max]
+# Większe wartości = dłuższy paragon
+aspect_ratio: [2, 3]
+
+# === KONFIGURACJA TŁA ===
+background:
+  # Parametry tekstury tła
+  image:
+    # Ścieżki do tekstur tła (względem głównego katalogu)
+    paths: [resources/background]
+    weights: [1]
+    # Czy używać skali szarości (0 = nie, 1 = tak)
+    grayscale: 0
+
+  # Efekty aplikowane na tle
+  effect:
+    args:
+      # Rozmycie gaussowskie
+      - prob: 1  # Prawdopodobieństwo zastosowania (1 = zawsze)
+        args:
+          # Zakres parametru sigma dla rozmycia [min, max]
+          sigma: [0, 5]  # Większe wartości = silniejsze rozmycie
+
+# === KONFIGURACJA DOKUMENTU ===
+document:
+  # Czy paragon ma zawsze zajmować cały obszar (1.0 = tak)
+  fullscreen: 1
+  
+  # Prawdopodobieństwo orientacji poziomej (0.0 = zawsze pionowa)
+  landscape: 0.0
+  
+  # Zakres szerokości dokumentu w pikselach [min, max]
+  short_size: [250, 480]
+  
+  # Zakres proporcji długość/szerokość [min, max]
+  aspect_ratio: [2, 3]
+
+  # === KONFIGURACJA PAPIERU (TŁA PARAGONU) ===
+  paper:
+    image:
+      paths: [resources/paper]
+      weights: [1]
+      # Przezroczystość tekstury papieru [min, max]
+      alpha: [0.2, 0.5]
+      grayscale: 0
+      crop: 0
+
+  # === KONFIGURACJA ZAWARTOŚCI PARAGONU ===
+  content:
+    # Marginesy treści (jako % szerokości/wysokości)
+    margin: 0.05
+    
+    # Zakres liczby produktów na paragonie [min, max]
+    products_count: [1, 15]
+    
+    # Ścieżka do pliku korpusu tekstowego
+    text:
+      path: receipt_corpus.json
+    
+    # Konfiguracja czcionek
+    font:
+      # Ścieżka do katalogu z czcionkami
+      paths: [resources/font/monospace]
+      weights: [1]
+      # Czy używać pogrubienia (0 = nie globalnie, pogrubienie ustawiane per sekcja)
+      bold: 0
+    
+    # === KONFIGURACJA UKŁADU PARAGONU ===
+    layout:
+      # Włączenie specjalnego układu dla paragonu
+      receipt: true
+      
+      # Współczynnik skalowania tekstu [min, max]
+      text_scale: [0.93, 0.96]
+      
+      # Dostępne typy wyrównania tekstu
+      align: [left, center, right]
+      
+      # Odstępy między wierszami [min, max] jako % wysokości
+      stack_spacing: [0.01, 0.2]
+      
+      # Zakres skali dla nagłówka PARAGON FISKALNY [min, max]
+      header_scale: [1, 1]
+      
+      # === WYSOKOŚCI SEKCJI (w pikselach) ===
+      heights:
+        # SEKCJA NAGŁÓWKOWA
+        shop_name: 25      # Wysokość boksu nazwy sklepu
+        shop_address: 20   # Wysokość boksu adresu sklepu
+        shop_tax_id: 20    # Wysokość boksu numeru NIP
+        
+        # SEKCJA DATY I NAGŁÓWKA
+        date_number: 20    # Wysokość boksu dla daty i numeru paragonu
+        receipt_header: 20 # Wysokość boksu dla nagłówka "PARAGON FISKALNY"
+        
+        # SEPARATORY
+        separator: 10      # Wysokość boksu dla wszystkich separatorów
+        
+        # PRODUKTY I VAT
+        product: 25        # Wysokość boksu dla pojedynczego produktu
+        vat_line: 20       # Wysokość boksu dla linii podsumowania VAT
+        
+        # PŁATNOŚĆ
+        total_sum: 30      # Wysokość boksu dla sumy paragonu
+        payment_method: 20 # Wysokość boksu dla metody płatności
+        
+        # STOPKA
+        footer: 20         # Wysokość boksu dla stopki paragonu
+        
+        # ODSTĘPY DODATKOWE
+        spacing:
+          after_shop_name: 0      # Dodatkowy odstęp po nazwie sklepu
+          after_date_number: 0    # Dodatkowy odstęp po dacie i numerze
+          after_receipt_header: 0 # Dodatkowy odstęp po nagłówku paragonu
+          after_separator: 0      # Dodatkowy odstęp po separatorach
+          before_products: 0      # Dodatkowy odstęp przed listą produktów
+          after_products: 0       # Dodatkowy odstęp po liście produktów
+          before_payment: 0       # Dodatkowy odstęp przed płatnością
+          after_payment: 0        # Dodatkowy odstęp po płatności
+
+      # === KONFIGURACJA SEPARATORÓW ===
+      separators:
+        # Typy separatorów
+        types:
+          - symbol: "-"           # Symbol separatora
+            name: "dash"          # Nazwa typu
+            weight: 6             # Waga dla losowego wyboru (większa = częściej wybierany)
+            length: 0.4           # Długość separatora jako % szerokości paragonu
+          - symbol: "."
+            name: "dot"
+            weight: 2
+            length: 0.5
+          - symbol: "*"
+            name: "star"
+            weight: 2
+            length: 0.21
+    
+        # Prawdopodobieństwo występowania separatora w różnych miejscach
+        locations:
+          header: 0.05       # Po nagłówku sklepu
+          title: 0.05        # Po "PARAGON FISKALNY"
+          products: 0.99     # Po liście produktów
+          vat: 0.3           # Po sekcji VAT
+          payment: 0.99      # Po płatności
+        
+        # Długość separatora jako % szerokości paragonu [min, max]
+        length: [0.34, 0.36]
+
+    # === FORMATOWANIE TEKSTBOX ===
+    textbox:
+      # Wypełnienie pola tekstowego [min, max]
+      fill: [0.8, 1]
+      
+    # === KOLOR ZAWARTOŚCI ===
+    content_color:
+      prob: 1.0  # Prawdopodobieństwo zastosowania (1.0 = zawsze)
+      args:
+        rgb:
+          - [0, 50]  # Zakres R
+          - [0, 50]  # Zakres G 
+          - [0, 50]  # Zakres B
+          
+    # === KONFIGURACJA ZAKRESU DAT ===
+    date_range:
+      min_days_back: 0    # Minimalna liczba dni wstecz
+      max_days_back: 730  # Maksymalna liczba dni wstecz (2 lata)
+      min_hour: 8         # Minimalna godzina
+      max_hour: 21        # Maksymalna godzina
+      
+    # === FORMATOWANIE TEKSTU ===
+    formatting:
+      # Znaki mnożenia (z wagami dla losowego wyboru)
+      multiply_signs:
+        - symbol: "x"
+          weight: 5
+        - symbol: "*"
+          weight: 1
+        - symbol: "X" 
+          weight: 1
+          
+      # Oznaczenia jednostek
+      unit_formats:
+        - format: "szt."
+          weight: 1
+        - format: "szt"
+          weight: 4
+        - format: ""       # Pusta jednostka
+          weight: 2
+          
+      # Separatory dziesiętne
+      decimal_separators:
+        - symbol: "."
+          weight: 1
+        - symbol: ","
+          weight: 9
+          
+      # Format ceny
+      price_formats:
+        - format: "standard"  # "2 x 3.50 = 7.00 A"
+          weight: 5
+        - format: "no_spaces"  # "2*3.50=7.00A"
+          weight: 2
+        - format: "hybrid"     # "2 x 3.50 = 7.00A"
+          weight: 5
+          
+      # Format daty
+      date_formats:
+        - format: "dash"  # "27-04-2023"
+          weight: 4
+        - format: "dot"   # "27.04.2023"
+          weight: 3
+        - format: "slash" # "27/04/2023"
+          weight: 2
+          
+      # Format sumy
+      sum_formats:
+        - format: "SUMA PLN:"
+          weight: 8
+        - format: "SUMA:"
+          weight: 1
+        - format: "RAZEM:"
+          weight: 1
+          
+      # Format numeru paragonu
+      receipt_number_formats:
+        - format: "Nr paragonu: {number}"
+          weight: 5
+        - format: "Paragon nr {number}"
+          weight: 3
+        - format: "#{number}"
+          weight: 2
+        - format: "FV {number}"
+          weight: 1
+
+  # === EFEKTY WIZUALNE DOKUMENTU ===
+  effects:
+    # Włączenie/wyłączenie poszczególnych efektów
+    elastic_distortion: true   # Zniekształcenia elastyczne
+    gaussian_noise: true       # Szum gaussowski
+    perspective: true          # Efekt perspektywy
+    perspective_variants: 8    # Liczba wariantów perspektywy
+
+  # === KONFIGURACJA EFEKTÓW ===
+  effect:
+    args:
+    # Zniekształcenia elastyczne - symuluje pomarszczenie papieru
+    - prob: 0.8  # Prawdopodobieństwo zastosowania
+      args:
+        alpha: [0.1, 1.5]  # Siła zniekształcenia
+        sigma: [1,1]       # Gładkość zniekształcenia
+        
+    # Szum gaussowski - charakterystyczny dla drukarek termicznych
+    - prob: 1
+      args:
+        scale: [0, 20]     # Skala szumu
+        per_channel: 0     # Czy stosować oddzielnie dla każdego kanału
+        
+    # Perspektywa - symuluje sfotografowanie paragonu pod kątem
+    - prob: 0.95
+      args:
+        # Wagi poszczególnych wariantów perspektywy
+        weights: [750, 50, 50, 5, 5, 5, 5, 0]
+        args:
+          # Różne warianty perspektywy - im wartości bliższe 1, tym mniejsze zniekształcenie
+          - percents: [[0.80, 0.95], [0.80, 0.95], [0.80, 0.95], [0.80, 0.95]]  # Minimalne zniekształcenie
+          - percents: [[0.80, 1], [0.95, 1], [0.85, 1], [0.95, 1]]
+          - percents: [[0.95, 1], [0.80, 1], [0.95, 1], [0.85, 1]]
+          - percents: [[0.80, 1], [0.95, 1], [0.95, 1], [0.95, 1]]
+          - percents: [[0.95, 1], [0.80, 1], [0.95, 1], [0.95, 1]]
+          - percents: [[0.95, 1], [0.95, 1], [0.80, 1], [0.95, 1]]
+          - percents: [[0.95, 1], [0.95, 1], [0.95, 1], [0.80, 1]]
+          - percents: [[1, 1], [1, 1], [1, 1], [1, 1]]  # Brak zniekształcenia
+
+# === GLOBALNE EFEKTY ===
+effect:
+  args:
+    # Color - koloryzacja (wyłączona)
+    - prob: 0
+      args:
+        rgb: [[0, 255], [0, 255], [0, 255]]
+        alpha: [0.3, 0.8]
+        
+    # Shadow - efekt cienia (symuluje cień podczas skanowania)
+    - prob: 1
+      args:
+        intensity: [60, 80]      # Intensywność cienia
+        amount: [0.1, 0.9]       # Ilość cienia
+        smoothing: [0.4, 1]      # Gładkość cienia
+        bidirectional: 0         # Czy cień z obu stron
+        
+    # Contrast - zwiększony kontrast dla lepszej czytelności
+    - prob: 0.8
+      args:
+        alpha: [1, 1.3]          # Mnożnik kontrastu
+        
+    # Brightness - regulacja jasności
+    - prob: 0.6
+      args:
+        beta: [-24, 15]          # Zmiana jasności (-/+ ciemniej/jaśniej)
+        
+    # Motion Blur - rozmazanie (symuluje ruch podczas skanowania)
+    - prob: 0.3
+      args:
+        k: [3, 3]                # Rozmiar jądra rozmycia (min. 3)
+        angle: [0, 360]          # Kąt rozmycia
+        
+    # Gaussian Blur - lekkie rozmycie całości
+    - prob: 0.4
+      args:
+        sigma: [0.2, 0.8]        # Parametr sigma rozmycia
+
+
+
+
+
+

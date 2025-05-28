@@ -1,0 +1,1661 @@
+{
+  "shop_names": [
+    {
+      "name": "SuperMarket",
+      "type": "grocery"
+    },
+    {
+      "name": "FreshMart",
+      "type": "grocery"
+    },
+    {
+      "name": "Biedronka",
+      "type": "grocery"
+    },
+    {
+      "name": "Lidl",
+      "type": "grocery"
+    },
+    {
+      "name": "Kaufland",
+      "type": "grocery"
+    },
+    {
+      "name": "Auchan",
+      "type": "grocery"
+    },
+    {
+      "name": "Carrefour",
+      "type": "grocery"
+    },
+    {
+      "name": "Lewiatan",
+      "type": "grocery"
+    },
+    {
+      "name": "Tesco",
+      "type": "grocery"
+    },
+    {
+      "name": "Żabka",
+      "type": "grocery"
+    },
+    {
+      "name": "Delikatesy Centrum",
+      "type": "grocery"
+    },
+    {
+      "name": "Netto",
+      "type": "grocery"
+    },
+    {
+      "name": "Stokrotka",
+      "type": "grocery"
+    },
+    {
+      "name": "Aldi",
+      "type": "grocery"
+    },
+    {
+      "name": "Dino",
+      "type": "grocery"
+    },
+    {
+      "name": "EkoMarket",
+      "type": "grocery"
+    },
+    {
+      "name": "FoodZone",
+      "type": "grocery"
+    },
+    {
+      "name": "Społem",
+      "type": "grocery"
+    },
+    {
+      "name": "PoloMarket",
+      "type": "grocery"
+    },
+    {
+      "name": "Topaz",
+      "type": "grocery"
+    },
+    {
+      "name": "MarketPol",
+      "type": "grocery"
+    },
+    {
+      "name": "FreshBox",
+      "type": "grocery"
+    },
+    {
+      "name": "MaxiFood",
+      "type": "grocery"
+    },
+    {
+      "name": "Intermarché",
+      "type": "grocery"
+    },
+    {
+      "name": "Sklepik24",
+      "type": "grocery"
+    },
+    {
+      "name": "QuickShop",
+      "type": "grocery"
+    },
+    {
+      "name": "Zielony Koszyk",
+      "type": "grocery"
+    },
+    {
+      "name": "BioBazar",
+      "type": "grocery"
+    },
+    {
+      "name": "AgroMarket",
+      "type": "grocery"
+    },
+    {
+      "name": "Smakosz",
+      "type": "grocery"
+    },
+    {
+      "name": "GranoShop",
+      "type": "grocery"
+    },
+    {
+      "name": "CityFresh",
+      "type": "grocery"
+    },
+    {
+      "name": "MegaMarket",
+      "type": "grocery"
+    },
+    {
+      "name": "DailyBazaar",
+      "type": "grocery"
+    },
+    {
+      "name": "EcoLista",
+      "type": "grocery"
+    },
+    {
+      "name": "Market24",
+      "type": "grocery"
+    },
+    {
+      "name": "FamilyMart",
+      "type": "grocery"
+    },
+    {
+      "name": "FoodCorner",
+      "type": "grocery"
+    },
+    {
+      "name": "GreenBasket",
+      "type": "grocery"
+    },
+    {
+      "name": "QuickFresh",
+      "type": "grocery"
+    },
+    {
+      "name": "UrbanMarket",
+      "type": "grocery"
+    },
+    {
+      "name": "FreshPoint",
+      "type": "grocery"
+    },
+    {
+      "name": "PrimaShop",
+      "type": "grocery"
+    },
+    {
+      "name": "DiscountPlus",
+      "type": "grocery"
+    },
+    {
+      "name": "LocalMarket",
+      "type": "grocery"
+    },
+    {
+      "name": "GastroExpress",
+      "type": "grocery"
+    },
+    {
+      "name": "Delikato",
+      "type": "grocery"
+    },
+    {
+      "name": "HyperOwoce",
+      "type": "grocery"
+    },
+    {
+      "name": "MarketExpress",
+      "type": "grocery"
+    },
+    {
+      "name": "FreshLine",
+      "type": "grocery"
+    }
+  ],
+  "company_info": {
+    "addresses": [
+      "ul. Marszałkowska 123, 00-001 Warszawa",
+      "ul. Krakowska 45, 31-062 Kraków",
+      "ul. Piotrkowska 67, 90-001 Łódź",
+      "ul. Długa 89, 80-765 Gdańsk",
+      "ul. Mickiewicza 12, 61-893 Poznań",
+      "ul. Świdnicka 34, 50-066 Wrocław",
+      "ul. Wolności 56, 41-800 Zabrze",
+      "ul. Jagiellońska 78, 70-382 Szczecin",
+      "ul. 3 Maja 23, 40-001 Katowice",
+      "ul. Sienkiewicza 45, 25-002 Kielce",
+      "ul. Piłsudskiego 10, 10-001 Olsztyn",
+      "ul. Legionów 22, 15-001 Białystok",
+      "ul. Mickiewicza 5, 20-400 Lublin",
+      "ul. Kopernika 3, 87-100 Toruń",
+      "ul. Słowackiego 14, 42-200 Częstochowa",
+      "ul. Głogowska 17, 60-004 Poznań",
+      "ul. Grunwaldzka 30, 81-747 Gdynia",
+      "ul. Jagiellończyka 8, 31-010 Kraków",
+      "ul. Traugutta 12, 41-200 Sosnowiec",
+      "ul. Piastowska 7, 35-045 Rzeszów",
+      "ul. Kościuszki 19, 45-064 Opole",
+      "ul. 1 Maja 25, 43-300 Bielsko-Biała",
+      "ul. Westerplatte 9, 26-600 Radom",
+      "ul. Zamenhofa 2, 51-137 Wrocław",
+      "ul. Piasta 33, 72-600 Świnoujście",
+      "ul. Moniuszki 44, 77-400 Złotów",
+      "ul. Chrobrego 6, 58-520 Kłodzko",
+      "ul. Krasickiego 18, 58-100 Świdnica",
+      "ul. Sienkiewicza 27, 25-501 Kielce",
+      "ul. Dąbrowskiego 11, 41-300 Dąbrowa Górnicza"
+    ],
+    "tax_ids": [
+      "NIP: 1234567890",
+      "NIP: 2345678901",
+      "NIP: 3456789012",
+      "NIP: 4567890123",
+      "NIP: 5678901234",
+      "NIP: 6789012345",
+      "NIP: 7890123456",
+      "NIP: 8901234567",
+      "NIP: 9012345678",
+      "NIP: 1122334455",
+      "NIP: 2233445566",
+      "NIP: 3344556677",
+      "NIP: 4455667788",
+      "NIP: 5566778899",
+      "NIP: 6677889900",
+      "NIP: 7788990011",
+      "NIP: 8899001122",
+      "NIP: 9900112233",
+      "NIP: 1011121314",
+      "NIP: 1213141516",
+      "NIP: 1314151617",
+      "NIP: 1415161718",
+      "NIP: 1516171819",
+      "NIP: 1617181920",
+      "NIP: 1718192021",
+      "NIP: 1819202122",
+      "NIP: 1920212223",
+      "NIP: 2021222324",
+      "NIP: 2122232425"
+    ],
+    "phone_numbers": [
+      "TEL: (22) 123-45-67",
+      "TEL: (12) 345-67-89",
+      "TEL: (42) 567-89-01",
+      "TEL: (58) 789-01-23",
+      "TEL: (61) 901-23-45",
+      "TEL: (71) 234-56-78",
+      "TEL: (89) 123-45-67",
+      "TEL: (85) 234-56-78",
+      "TEL: (81) 345-67-89",
+      "TEL: (58) 456-78-90",
+      "TEL: (68) 567-89-01",
+      "TEL: (29) 678-90-12",
+      "TEL: (41) 789-01-23",
+      "TEL: (71) 890-12-34",
+      "TEL: (32) 901-23-45",
+      "TEL: (34) 012-34-56",
+      "TEL: (77) 123-45-67",
+      "TEL: (43) 234-56-78",
+      "TEL: (44) 345-67-89",
+      "TEL: (46) 456-78-90",
+      "TEL: (52) 567-89-01",
+      "TEL: (54) 678-90-12",
+      "TEL: (56) 789-01-23",
+      "TEL: (58) 890-12-34",
+      "TEL: (62) 901-23-45",
+      "TEL: (66) 012-34-56"
+    ],
+    "emails": [
+      "info@sklep.pl",
+      "kontakt@market.pl",
+      "obsluga@supermarket.pl",
+      "biuro@sklep.com.pl"
+    ],
+    "websites": [
+      "www.sklep.pl",
+      "www.market.pl",
+      "www.supermarket.pl",
+      "www.sklep.com.pl"
+    ],
+    "register_info": [
+      "REGON: 123456789",
+      "KRS: 0000123456",
+      "BDO: 000123456"
+    ]
+  },
+  "receipt_headers": [
+    "PARAGON FISKALNY",
+    "PARAGON"
+  ],
+  "sub_headers": [
+    "ORYGINAŁ",
+    "KOPIA"
+  ],
+  "products": {
+    "grocery": [
+      {
+        "name": "Chleb pszenny",
+        "unit": "szt.",
+        "price_range": [3.50, 5.50],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Chleb żytni",
+        "unit": "szt.",
+        "price_range": [4.20, 6.50],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Bułka",
+        "unit": "szt.",
+        "price_range": [0.60, 1.20],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Mleko 2%",
+        "unit": "szt.",
+        "price_range": [2.80, 4.20],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Masło",
+        "unit": "szt.",
+        "price_range": [5.50, 8.90],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Ser żółty",
+        "unit": "kg",
+        "price_range": [25.90, 39.90],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Jajka",
+        "unit": "szt.",
+        "price_range": [7.50, 12.50],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Filet z kurczaka",
+        "unit": "kg",
+        "price_range": [18.90, 29.90],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Jabłka",
+        "unit": "kg",
+        "price_range": [3.90, 7.90],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Banany",
+        "unit": "kg",
+        "price_range": [5.90, 9.90],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Pomidory",
+        "unit": "kg",
+        "price_range": [7.90, 15.90],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Ogórki",
+        "unit": "kg",
+        "price_range": [6.90, 12.90],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Ziemniaki",
+        "unit": "kg",
+        "price_range": [2.50, 4.90],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Kawa",
+        "unit": "szt.",
+        "price_range": [15.90, 29.90],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Herbata",
+        "unit": "szt.",
+        "price_range": [8.90, 18.90],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Woda mineralna",
+        "unit": "szt.",
+        "price_range": [1.90, 3.90],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Sok pomarańczowy",
+        "unit": "szt.",
+        "price_range": [4.90, 8.90],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Chipsy",
+        "unit": "szt.",
+        "price_range": [4.50, 7.90],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Czekolada",
+        "unit": "szt.",
+        "price_range": [3.90, 7.90],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Ciastka",
+        "unit": "szt.",
+        "price_range": [5.50, 9.90],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Jogurt naturalny",
+        "unit": "szt.",
+        "price_range": [1.90, 3.90],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Jogurt owocowy",
+        "unit": "szt.",
+        "price_range": [1.90, 3.90],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Śmietana 18%",
+        "unit": "szt.",
+        "price_range": [2.50, 4.50],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Ser biały",
+        "unit": "kg",
+        "price_range": [15.90, 25.90],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Kiełbasa",
+        "unit": "kg",
+        "price_range": [19.90, 39.90],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Szynka",
+        "unit": "kg",
+        "price_range": [25.90, 45.90],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Parówki",
+        "unit": "szt.",
+        "price_range": [6.90, 12.90],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Makaron",
+        "unit": "szt.",
+        "price_range": [3.90, 7.90],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Ryż",
+        "unit": "kg",
+        "price_range": [4.50, 9.90],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Mąka pszenna",
+        "unit": "kg",
+        "price_range": [2.90, 5.90],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Cukier",
+        "unit": "szt.",
+        "price_range": [3.50, 6.90],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Olej",
+        "unit": "szt.",
+        "price_range": [6.90, 12.90],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Sól",
+        "unit": "kg",
+        "price_range": [1.90, 3.90],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Kasza gryczana",
+        "unit": "kg",
+        "price_range": [5.90, 9.90],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Piwo",
+        "unit": "szt.",
+        "price_range": [2.90, 5.90],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Napój gazowany",
+        "unit": "szt.",
+        "price_range": [3.90, 6.90],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Batony",
+        "unit": "szt.",
+        "price_range": [2.50, 4.90],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Ketchup",
+        "unit": "szt.",
+        "price_range": [4.90, 8.90],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Majonez",
+        "unit": "szt.",
+        "price_range": [5.90, 9.90],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Musztarda",
+        "unit": "szt.",
+        "price_range": [3.50, 6.90],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Koncentrat pomidorowy",
+        "unit": "szt.",
+        "price_range": [2.90, 5.90],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Groszek konserwowy",
+        "unit": "szt.",
+        "price_range": [3.50, 6.50],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Kukurydza konserwowa",
+        "unit": "szt.",
+        "price_range": [3.50, 6.50],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Tuńczyk w puszce",
+        "unit": "szt.",
+        "price_range": [6.90, 12.90],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Sardynki w oleju",
+        "unit": "szt.",
+        "price_range": [5.90, 9.90],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Jabłka luz",
+        "unit": "kg",
+        "price_range": [2.99, 5.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Wafle Sonko",
+        "unit": "szt.",
+        "price_range": [3.49, 5.29],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Serek wani",
+        "unit": "szt.",
+        "price_range": [1.59, 2.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Kraft Delicje",
+        "unit": "szt.",
+        "price_range": [5.99, 9.49],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Mąka Szymanów",
+        "unit": "szt.",
+        "price_range": [2.99, 4.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Cukier biały",
+        "unit": "kg",
+        "price_range": [3.29, 6.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Olej Kujaw",
+        "unit": "szt.",
+        "price_range": [7.49, 12.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Piwo Żywiec",
+        "unit": "szt.",
+        "price_range": [3.29, 5.99],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Mleko świeże",
+        "unit": "szt.",
+        "price_range": [2.49, 4.29],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Ziemniaki luz",
+        "unit": "kg",
+        "price_range": [1.99, 4.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Pierś z kur",
+        "unit": "kg",
+        "price_range": [15.99, 25.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Kawa Tchibo",
+        "unit": "szt.",
+        "price_range": [14.99, 27.99],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Herbata Lipt",
+        "unit": "szt.",
+        "price_range": [5.99, 11.99],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Musztarda Kamis",
+        "unit": "szt.",
+        "price_range": [3.49, 6.99],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Jogurt nat",
+        "unit": "szt.",
+        "price_range": [1.29, 2.79],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Groszek konser",
+        "unit": "szt.",
+        "price_range": [2.79, 5.49],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Masło extra",
+        "unit": "szt.",
+        "price_range": [5.99, 9.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Ser gouda",
+        "unit": "kg",
+        "price_range": [19.99, 32.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Płatki owsiane",
+        "unit": "szt.",
+        "price_range": [2.49, 5.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Sos pomidorowy",
+        "unit": "szt.",
+        "price_range": [3.99, 7.49],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Sok pomarań",
+        "unit": "szt.",
+        "price_range": [3.99, 8.49],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Kukurydza pusz",
+        "unit": "szt.",
+        "price_range": [2.99, 5.99],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Fasola biała",
+        "unit": "szt.",
+        "price_range": [3.49, 5.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Śmietana 18%",
+        "unit": "szt.",
+        "price_range": [2.49, 4.29],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Makaron Lubel",
+        "unit": "szt.",
+        "price_range": [3.49, 6.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Twaróg półtł",
+        "unit": "szt.",
+        "price_range": [4.99, 9.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Płyn Fairy",
+        "unit": "szt.",
+        "price_range": [5.99, 12.99],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Pomidory luz",
+        "unit": "kg",
+        "price_range": [6.99, 14.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Papier toalet",
+        "unit": "szt.",
+        "price_range": [9.99, 19.99],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Proszek Vizir",
+        "unit": "szt.",
+        "price_range": [14.99, 29.99],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Mydło w płynie",
+        "unit": "szt.",
+        "price_range": [5.99, 12.99],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Ręczniki kuch",
+        "unit": "szt.",
+        "price_range": [4.99, 11.99],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Pasta do zęb",
+        "unit": "szt.",
+        "price_range": [7.99, 15.99],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Ryż biały",
+        "unit": "szt.",
+        "price_range": [3.49, 8.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Płatki kuk",
+        "unit": "szt.",
+        "price_range": [7.99, 14.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Chrupki kuk",
+        "unit": "szt.",
+        "price_range": [2.99, 5.99],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Chipsy Lay's",
+        "unit": "szt.",
+        "price_range": [4.99, 8.99],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Schab b/k",
+        "unit": "kg",
+        "price_range": [18.99, 29.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Łopatka wieprz",
+        "unit": "kg",
+        "price_range": [14.99, 24.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Kiełbasa śląska",
+        "unit": "kg",
+        "price_range": [18.99, 29.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Jaja z chowu",
+        "unit": "szt.",
+        "price_range": [6.99, 14.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Dżem trusk",
+        "unit": "szt.",
+        "price_range": [3.99, 7.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Miód wielokw",
+        "unit": "szt.",
+        "price_range": [11.99, 24.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Napój gazow",
+        "unit": "szt.",
+        "price_range": [3.49, 6.99],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Piwo bezalk",
+        "unit": "szt.",
+        "price_range": [2.99, 5.99],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Woda miner gaz",
+        "unit": "szt.",
+        "price_range": [1.79, 3.99],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Ogórki kisz",
+        "unit": "kg",
+        "price_range": [7.99, 15.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Kapusta kisz",
+        "unit": "kg",
+        "price_range": [5.99, 11.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Baton Snick",
+        "unit": "szt.",
+        "price_range": [2.49, 3.99],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Jogurt owoc",
+        "unit": "szt.",
+        "price_range": [1.49, 2.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Ser pleśniowy",
+        "unit": "szt.",
+        "price_range": [6.99, 14.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Keczup Hein",
+        "unit": "szt.",
+        "price_range": [5.99, 11.99],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Majonez Winel",
+        "unit": "szt.",
+        "price_range": [4.99, 9.99],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Por świeży",
+        "unit": "szt.",
+        "price_range": [2.49, 4.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Sałata lodowa",
+        "unit": "szt.",
+        "price_range": [3.49, 6.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Pieczywo tost",
+        "unit": "szt.",
+        "price_range": [3.99, 7.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Tuńczyk w ol",
+        "unit": "szt.",
+        "price_range": [7.99, 15.99],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Kasza grycz",
+        "unit": "szt.",
+        "price_range": [2.99, 6.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Kasza jagl",
+        "unit": "szt.",
+        "price_range": [3.49, 7.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Mąka ziemniacz",
+        "unit": "szt.",
+        "price_range": [2.49, 5.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Budyń wanili",
+        "unit": "szt.",
+        "price_range": [0.99, 2.49],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Galaretka owoc",
+        "unit": "szt.",
+        "price_range": [1.29, 2.99],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Konserwa mięs",
+        "unit": "szt.",
+        "price_range": [6.99, 12.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Brzoskw puszka",
+        "unit": "szt.",
+        "price_range": [4.99, 9.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Ananas puszka",
+        "unit": "szt.",
+        "price_range": [4.49, 8.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Oliwa z oliw",
+        "unit": "szt.",
+        "price_range": [17.99, 39.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Ocet jabłk",
+        "unit": "szt.",
+        "price_range": [2.99, 6.99],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Pieprz czarny",
+        "unit": "szt.",
+        "price_range": [3.49, 8.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Ziele angiel",
+        "unit": "szt.",
+        "price_range": [2.99, 6.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Liść laur",
+        "unit": "szt.",
+        "price_range": [1.99, 4.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Herbata ziel",
+        "unit": "szt.",
+        "price_range": [4.99, 12.99],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Czekolada mlecz",
+        "unit": "szt.",
+        "price_range": [3.99, 8.99],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Chałwa wanilko",
+        "unit": "szt.",
+        "price_range": [4.99, 9.99],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Brzoskwinie luz",
+        "unit": "kg",
+        "price_range": [7.99, 16.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Ser camemb",
+        "unit": "szt.",
+        "price_range": [5.99, 12.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Pierogi z miesn",
+        "unit": "szt.",
+        "price_range": [9.99, 18.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Czosnek głowka",
+        "unit": "szt.",
+        "price_range": [1.49, 3.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Drożdże śwież",
+        "unit": "szt.",
+        "price_range": [1.29, 2.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Winogrona jas",
+        "unit": "kg",
+        "price_range": [9.99, 19.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Cytryna luz",
+        "unit": "kg",
+        "price_range": [7.99, 15.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Sok pomid pusz",
+        "unit": "szt.",
+        "price_range": [2.99, 5.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Margaryna Rama",
+        "unit": "szt.",
+        "price_range": [4.99, 9.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Dżem morela",
+        "unit": "szt.",
+        "price_range": [4.29, 8.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Paluszki slon",
+        "unit": "szt.",
+        "price_range": [2.49, 4.99],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Precelki sol",
+        "unit": "szt.",
+        "price_range": [2.99, 5.99],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Musli z rodz",
+        "unit": "szt.",
+        "price_range": [7.99, 15.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Chleb żytni",
+        "unit": "szt.",
+        "price_range": [3.49, 6.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Masło ekstra",
+        "unit": "szt.",
+        "price_range": [6.99, 11.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Banany luz",
+        "unit": "kg",
+        "price_range": [4.49, 8.49],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Papryka czer",
+        "unit": "kg",
+        "price_range": [7.99, 16.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Woda gaz 1.5L",
+        "unit": "szt.",
+        "price_range": [1.49, 2.99],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Woda niegaz 1L",
+        "unit": "szt.",
+        "price_range": [1.29, 2.49],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Ser gouda",
+        "unit": "kg",
+        "price_range": [19.99, 32.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Jaja klasa M",
+        "unit": "opak.",
+        "price_range": [5.49, 10.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Czekolada mle",
+        "unit": "szt.",
+        "price_range": [2.99, 5.99],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Herbata czarna",
+        "unit": "szt.",
+        "price_range": [4.99, 12.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Cukier biały",
+        "unit": "kg",
+        "price_range": [3.29, 6.49],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Mąka tortowa",
+        "unit": "kg",
+        "price_range": [2.49, 4.49],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Makaron rurki",
+        "unit": "szt.",
+        "price_range": [2.99, 6.49],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Jogurt trusk",
+        "unit": "szt.",
+        "price_range": [1.49, 3.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Płatki kukur",
+        "unit": "szt.",
+        "price_range": [4.99, 9.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Szynka konser",
+        "unit": "szt.",
+        "price_range": [6.99, 14.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Koncentrat pom",
+        "unit": "szt.",
+        "price_range": [1.99, 4.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Ziemniaki luz",
+        "unit": "kg",
+        "price_range": [2.49, 4.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Cebula żółta",
+        "unit": "kg",
+        "price_range": [1.99, 3.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Mydło Dove",
+        "unit": "szt.",
+        "price_range": [3.49, 7.49],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Szampon Fruct",
+        "unit": "szt.",
+        "price_range": [7.99, 14.99],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Płyn do nacz",
+        "unit": "szt.",
+        "price_range": [3.49, 8.49],
+        "vat_rate": "23%",
+        "vat_symbol": "A"
+      },
+      {
+        "name": "Mleko 2%",
+        "unit": "L",
+        "price_range": [2.49, 4.29],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Ser twaróg",
+        "unit": "kg",
+        "price_range": [9.99, 18.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Ketchup łagod",
+        "unit": "szt.",
+        "price_range": [3.49, 7.49],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Majonez klasy",
+        "unit": "szt.",
+        "price_range": [4.49, 9.99],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Zupa krem dyn",
+        "unit": "szt.",
+        "price_range": [3.99, 7.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Pasztet drobi",
+        "unit": "szt.",
+        "price_range": [2.49, 5.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Twaróg sernik",
+        "unit": "kg",
+        "price_range": [10.99, 17.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Wafle ryżowe",
+        "unit": "szt.",
+        "price_range": [2.99, 6.49],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Sól himalaj",
+        "unit": "szt.",
+        "price_range": [3.99, 8.49],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Pomidory luz",
+        "unit": "kg",
+        "price_range": [5.99, 11.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Olej rzepak",
+        "unit": "L",
+        "price_range": [7.49, 12.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Kakao natural",
+        "unit": "szt.",
+        "price_range": [3.99, 8.49],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Czekolada gor",
+        "unit": "szt.",
+        "price_range": [3.49, 6.99],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Lody wanil",
+        "unit": "szt.",
+        "price_range": [4.99, 12.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Miód wielokw",
+        "unit": "szt.",
+        "price_range": [8.99, 17.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Parówki drob",
+        "unit": "kg",
+        "price_range": [12.99, 21.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Kiełbasa ślą",
+        "unit": "kg",
+        "price_range": [14.99, 26.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Filet z kurcz",
+        "unit": "kg",
+        "price_range": [16.99, 28.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Mięso mielon",
+        "unit": "kg",
+        "price_range": [14.99, 25.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Rzodkiewki",
+        "unit": "pęcz.",
+        "price_range": [1.99, 3.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Sałata lodowa",
+        "unit": "szt.",
+        "price_range": [3.49, 6.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Ogórki kisz",
+        "unit": "szt.",
+        "price_range": [5.99, 11.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Pieczarki luz",
+        "unit": "kg",
+        "price_range": [6.49, 10.99],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Czekoladki mix",
+        "unit": "szt.",
+        "price_range": [4.99, 13.99],
+        "vat_rate": "8%",
+        "vat_symbol": "B"
+      },
+      {
+        "name": "Bułki pszenne",
+        "unit": "szt.",
+        "price_range": [0.49, 1.29],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Drożdże 100g",
+        "unit": "szt.",
+        "price_range": [0.79, 1.59],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      },
+      {
+        "name": "Kasza jaglana",
+        "unit": "szt.",
+        "price_range": [2.99, 6.49],
+        "vat_rate": "5%",
+        "vat_symbol": "C"
+      }
+    ]
+  },
+  "units": [
+    "szt.",
+    "kg"
+  ],
+  "payment_methods": [
+    {
+      "method": "GOTÓWKA",
+      "description": "Płatność gotówką"
+    },
+    {
+      "method": "KARTA",
+      "description": "Płatność kartą płatniczą"
+    },
+    {
+      "method": "BLIK",
+      "description": "Płatność BLIK"
+    }
+  ],
+  "payment_info": [
+    "SUMA",
+    "SUMA PLN",
+    "RAZEM",
+    "DO ZAPŁATY",
+    "NALEŻNOŚĆ",
+    "PODSUMA"
+  ],
+  "vat_rates": [
+    {
+      "rate": "23%",
+      "symbol": "A"
+    },
+    {
+      "rate": "8%",
+      "symbol": "B"
+    },
+    {
+      "rate": "5%",
+      "symbol": "C"
+    },
+    {
+      "rate": "0%",
+      "symbol": "D"
+    },
+    {
+      "rate": "zw.",
+      "symbol": "E"
+    }
+  ],
+  "receipt_footers": [
+    "DZIĘKUJEMY ZA ZAKUPY",
+    "ZAPRASZAMY PONOWNIE",
+    "DZIĘKUJEMY I ZAPRASZAMY PONOWNIE",
+    "ZACHOWAJ PARAGON",
+    "ZWROTY DO 14 DNI Z PARAGONEM",
+    "ŻYCZYMY MIŁEGO DNIA",
+    "ZAPRASZAMY CODZIENNIE 7-22"
+  ],
+
+  "quantity_ranges": {
+    "kg": {
+      "ranges": [
+        {"min": 0.1, "max": 0.5, "weight": 13},
+        {"min": 0.5, "max": 2.0, "weight": 3},
+        {"min": 2.0, "max": 5.0, "weight": 1},
+        {"min": 5.0, "max": 12.0, "weight": 1}
+      ]
+    },
+    "szt.": {
+      "ranges": [
+        {"min": 1, "max": 1, "weight": 10},
+        {"min": 2, "max": 5, "weight": 3},
+        {"min": 5, "max": 12, "weight": 1}
+      ]
+    }
+  }
+}
