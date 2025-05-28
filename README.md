@@ -1,6 +1,8 @@
 # Generator Syntetycznych Paragonów
 
-Generator syntetycznych paragonów to narzędzie do tworzenia realistycznie wyglądających obrazów paragonów sklepowych wraz z odpowiadającymi im metadanymi strukturalnymi. Jest to przydatne do generowania danych treningowych dla systemów OCR (Optical Character Recognition) oraz modeli AI specjalizujących się w przetwarzaniu dokumentów.
+Generator syntetycznych paragonów to narzędzie do tworzenia **realistycznych obrazów paragonów sklepowych** wraz z odpowiadającymi im metadanymi strukturalnymi. Świetnie nadaje się do generowania danych treningowych dla systemów OCR oraz modeli AI przetwarzających dokumenty.
+
+---
 
 ## Przykłady wygenerowanych paragonów
 
@@ -10,49 +12,64 @@ Generator syntetycznych paragonów to narzędzie do tworzenia realistycznie wygl
   <img src="images/screenshot_3.jpg" alt="Screenshot 3" width="250"/>
 </p>
 
+---
 
 ## Instalacja
 
 ### Wymagania
 
-- Python 3.8 lub nowszy
-- Biblioteki Python:
-  - numpy
-  - Pillow
-  - synthtiger
-  - pyyaml
+- Python **3.8** lub nowszy
+- Pakiety Python:
+  - `numpy`
+  - `Pillow`
+  - `synthtiger`
+  - `pyyaml`
 
-### Kroki instalacji
+### Szybki start
 
 1. **Klonowanie repozytorium**
-   ```bash
-   git clone [https://github.com/\[Twój-Username\]/generator-paragonow.git](https://github.com/Roch-git/Synth_Receipt_Generator)
-   cd generator-paragonow
+    ```bash
+    git clone https://github.com/Roch-git/Synth_Receipt_Generator.git
+    cd Synth_Receipt_Generator
+    ```
 
-2. **Utworzenie wirtualnego środowiska (opcjonalne)**
+2. **(Opcjonalnie) Utwórz i aktywuj środowisko wirtualne**
 
-#### Utworzenie środowiska
-python -m venv venv
+    <details>
+    <summary>Instrukcje (kliknij, by rozwinąć)</summary>
 
-#### Aktywacja środowiska
-##### Na Windows:
-venv\Scripts\activate
+    **Tworzenie środowiska**
+    ```bash
+    python -m venv venv
+    ```
 
-##### Na macOS/Linux:
-source venv/bin/activate
+    **Aktywacja środowiska**
+
+    - **Windows:**
+      ```bash
+      venv\Scripts\activate
+      ```
+    - **macOS/Linux:**
+      ```bash
+      source venv/bin/activate
+      ```
+    </details>
 
 3. **Instalacja zależności**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-pip install -r requirements.txt
+---
 
-### Sposób uruchomienia
+## Sposób uruchomienia
 
-Aby wygenerować paragony, użyj poniższej komendy:
+Aby wygenerować paragony, użyj poniższej komendy (dostosuj argumenty według potrzeb):
 
 ```bash
 python main.py --config config_receipt.yaml --output wygenerowane_paragony --count 50 --seed 123 --verbose
- ```
-
+```
+### Opis opcji uruchomienia
 
 | Opcja       | Opis                                         | Wartość domyślna      |
 | ----------- | -------------------------------------------- | --------------------- |
