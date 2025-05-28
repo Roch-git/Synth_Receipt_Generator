@@ -5,9 +5,9 @@ Generator syntetycznych paragonów to narzędzie do tworzenia realistycznie wygl
 ## Przykłady wygenerowanych paragonów
 
 <p align="center">
-  <img src="images/screenshot_1.png" alt="Screenshot 1" width="250"/>
-  <img src="images/screenshot_2.png" alt="Screenshot 2" width="250"/>
-  <img src="images/screenshot_3.png" alt="Screenshot 3" width="250"/>
+  <img src="images/screenshot_1.jpg" alt="Screenshot 1" width="250"/>
+  <img src="images/screenshot_2.jpg" alt="Screenshot 2" width="250"/>
+  <img src="images/screenshot_3.jpg" alt="Screenshot 3" width="250"/>
 </p>
 
 
@@ -26,19 +26,19 @@ Generator syntetycznych paragonów to narzędzie do tworzenia realistycznie wygl
 
 1. **Klonowanie repozytorium**
    ```bash
-   git clone https://github.com/[Twój-Username]/generator-paragonow.git
+   git clone [https://github.com/\[Twój-Username\]/generator-paragonow.git](https://github.com/Roch-git/Synth_Receipt_Generator)
    cd generator-paragonow
 
 2. **Utworzenie wirtualnego środowiska (opcjonalne)**
 
-# Utworzenie środowiska
+#### Utworzenie środowiska
 python -m venv venv
 
-# Aktywacja środowiska
-# Na Windows:
+#### Aktywacja środowiska
+##### Na Windows:
 venv\Scripts\activate
 
-# Na macOS/Linux:
+##### Na macOS/Linux:
 source venv/bin/activate
 
 3. **Instalacja zależności**
